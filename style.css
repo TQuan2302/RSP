@@ -1,0 +1,63 @@
+.cell{
+    width : 75px; 
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer; 
+    color: white; 
+    
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    margin: 20px;
+
+}
+#cellContainer{
+    display: grid; 
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto; 
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 150px; /* Space between the buttons */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#undoBtn {
+    color: green; 
+    /* Optionally, add space to the left of the Undo button */
+    margin-right: 10px; /* Adds space between Undo and Restart */
+}
+
+#restartBtn {
+    color: purple; 
+    /* You can also add margin to the Restart button if needed */
+    margin-left: 10px; /* Adds space between Restart and other elements */
+}
+
+/*Color for the title*/
+h1 {
+    color: #FF5733; /* Replace with the color you want */
+}
+
+h2 {
+    color: #694bcc; /* Replace with the color you want */
+}
+
+/*Set the background picture*/
+body {
+    background-image: url('black.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center center; /* Centers the image */
+    background-repeat: repeat; /* Prevents the image from repeating */
+}
